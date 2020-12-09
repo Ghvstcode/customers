@@ -7,7 +7,8 @@ moov-io/customers
 [![Go Report Card](https://goreportcard.com/badge/github.com/moov-io/customers)](https://goreportcard.com/report/github.com/moov-io/customers)
 [![Apache 2 licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/moov-io/customers/master/LICENSE)
 
-This project focuses on verifying the identity of people who are legally able to hold and transfer currency in the United States. It provides services related to:
+
+This library is a suuporting service for the [Moov Paygate](https://github.com/moov-io/paygate) project. Developers building Fin-tech products can integrate this library into their projects and verify if the users are legally allowed to hold and transfer currency in the United States. This project provides services related to:
  - [Know Your Customer](https://en.wikipedia.org/wiki/Know_your_customer) (KYC)
  - [Customer Identification Program](https://en.wikipedia.org/wiki/Customer_Identification_Program) (CIP)
  - [Office of Foreign Asset Control](https://www.treasury.gov/about/organizational-structure/offices/Pages/Office-of-Foreign-Assets-Control.aspx) (OFAC) checks
