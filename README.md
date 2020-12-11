@@ -33,9 +33,9 @@ The Moov Customers project is under active development, so please star the proje
 ## Getting Started
 Customers has a Docker Container setup which you can run locally. To get started: 
 - Clone this repository into your local machine
-- Navigate to the cloned repository
+- Navigate to the directory of the cloned repository
+- Run the following commands
 To run this project locally, Clone it into your local computer. 
-Customers has a [Docker Compose](https://docs.docker.com/compose/gettingstarted/) setup which you can run locally. This uses the latest releases of Customers and Watchman.
 
 ```
 $ docker-compose up
@@ -47,7 +47,9 @@ customers_1  | ts=2020-03-06T22:56:24.393462Z caller=watchman.go:102 watchman="u
 customers_1  | ts=2020-03-06T22:56:24.3951132Z caller=main.go:171 startup="binding to :8087 for HTTP server"
 ```
 
-Once the systems start you can access Customers via `http://localhost:8087` and Watchman's [web interface or api](http://localhost:8084):
+This project uses facebook's [Watchman](https://facebook.github.io/watchman/) to watch files.
+
+Once the systems start you can access the latest release of Customers via `http://localhost:8087` and Watchman's [web interface or api](http://localhost:8084):
 
 1. [API Endpoints](https://moov-io.github.io/customers/api/)
 1. [Admin Endpoints](https://moov-io.github.io/customers/admin/)
