@@ -15,20 +15,26 @@ This library is a suuporting service for the [Moov Paygate](https://github.com/m
  - [Office of Foreign Asset Control](https://www.treasury.gov/about/organizational-structure/offices/Pages/Office-of-Foreign-Assets-Control.aspx) (OFAC) checks
  - Verification workflows to comply with US federal law and ensure authentic transfers
  
-The goal of this project is to provide objective, detailed due diligence on individuals and companies in the financial sector as required by the US government— in a modernized and extensible way.
+ ## Motivation
+ It is a requirement when carrying out ACH transactions within the US to follow the KYC guidlines as stated by the government. The goal of this project is to provide an objective, modernized and extensible way to carry out detailed due diligence on individuals and companies in the financial sector as is required.
 
-If you believe you have identified a security vulnerability please responsibly report the issue as via email to security@moov.io. Please do not post it to a public issue tracker.
+| :warning: WARNING          |
+|:---------------------------|
+| If you believe you have identified a security vulnerability please responsibly report the issue as via email to security@moov.io. Please do not post it to a public issue tracker.      |
 
-[FFIEC Bank Secrecy Act - Customer Identification Program](https://www.fdic.gov/regulations/examinations/bsa/ffiec_cip.pdf)
+[FFIEC Bank Secrecy Act - Customer Identification Program-This Link Is Broken](https://www.fdic.gov/regulations/examinations/bsa/ffiec_cip.pdf)
 
 Docs: [docs](https://moov-io.github.io/customers/) | [API Endpoints](https://moov-io.github.io/customers/api/) | [Admin API Endpoints](https://moov-io.github.io/customers/admin/)
 
 ## Project Status
 
-Moov Customers is under active development, so please star the project if you are interested in its progress. We are developing an extensible HTTP API for interactions along with an OpenAPI specification file for generating clients for integration projects.
+The Moov Customers project is under active development, so please star the project if you are interested in its progress. It is open source, feel free to [contribute](#contributing) and point us to any errors by creating and Issue. We are developing an extensible HTTP API for interactions along with an OpenAPI specification file for generating clients for integration projects.
 
 ## Getting Started
-
+Customers has a Docker Container setup which you can run locally. To get started: 
+- Clone this repository into your local machine
+- Navigate to the cloned repository
+To run this project locally, Clone it into your local computer. 
 Customers has a [Docker Compose](https://docs.docker.com/compose/gettingstarted/) setup which you can run locally. This uses the latest releases of Customers and Watchman.
 
 ```
